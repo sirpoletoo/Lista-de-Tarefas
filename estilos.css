@@ -13,6 +13,20 @@ header {
     background-color: var(--cor-clara);
     border-radius: 8px 8px 0px 0px;
     text-align: center;
+    margin-bottom: 0;
+    padding: 20px;
+}
+#navegacao{
+    padding: 10px;
+}
+#navegacao a {
+    color: var(--cor-complementar);
+    font-family: var(--fonte-secundaria);
+    text-decoration: none;
+}
+#navegacao a:hover{
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.356);
 }
 #principal {
     display: block;
@@ -36,4 +50,8 @@ main{
 
 footer {
 font-family: var(--fonte-secundaria)
+}
+
+footer > a:hover{
+ text-decoration: underline;
 }
